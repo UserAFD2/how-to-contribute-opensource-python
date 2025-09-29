@@ -2,6 +2,23 @@
 
 This is a simple weather application written in Python.
 
+## Setup
+
+First, install the dependencies. You can use either:
+
+### Option 1: With [uv](https://github.com/astral-sh/uv) (recommended)
+
+```bash
+pip install uv
+uv pip sync uv.lock
+```
+
+### Option 2: With pip
+
+```bash
+pip install -r requirements.txt
+````
+
 ## API Endpoint
 
 ### GET /api/weather
